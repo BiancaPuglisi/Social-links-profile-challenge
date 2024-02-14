@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --dark-grey: hsl(0, 0%, 12%);
+    --off-black:  hsl(0, 0%, 8%);
+    --lime: hsl(75, 94%, 57%);
+}
+
+body {
+    background-color: var(--off-black);
+    font-family: "Inter", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    max-width: 100vw;
+    background-color: var(--dark-grey);
+    padding: 20px;
+    border-radius: 15px;
+    width: 400px;
+}
+
+.container {
+    text-align: center;
+}
+
+.container img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.container h1 {
+    font-size: 1.5em;
+    margin-top: 30px;
+    color: var(--white);
+}
+
+.container h2 {
+    font-size: 0.9em;
+    color: var(--lime);
+}
+
+.container p {
+    font-size: 0.8750em;
+    margin-top: 30px;
+    color: var(--white);
+}
+
+.social-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card {
+    background-color: var(--grey);
+    padding: 15px;
+    margin: 10px;
+    width: 80%;
+    text-align: center;
+    border-radius: 15px;
+    color: var(--white);
+    font-weight: 600;
+}
+
+.card:hover {
+    background-color: var(--lime);
+    color: var(--off-black);
+    cursor: pointer;
+}
+
